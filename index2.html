@@ -1,0 +1,417 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <nav>
+            <span><img width="53" src="assets/images/logo.svg" alt=""></span>
+            <div>
+                <!-- <button class="btn">English</button> -->
+                <div class="lang-dropdown">
+                    <button class="btn lang-btn">English ▼</button>
+
+                    <div class="lang-menu">
+                        <div data-lang="en">English</div>
+                        <div data-lang="hi">हिन्दी</div>
+                        <div data-lang="ta">தமிழ்</div>
+                        <div data-lang="te">తెలుగు</div>
+                    </div>
+                </div>
+
+                
+                <a href="signin.html">
+                    <button class="btn btn-red-sm">Sign In</button>
+                </a>
+
+            </div>
+        </nav>
+        <div class="box">
+        </div>
+        <div class="hero">
+            <span>Enjoy big movies, hit series and more from ₹ 149.</span>
+            <span>Join today. Cancel anytime.</span>
+            <span>Ready to watch? Enter your email to create or restart your membership.</span>
+
+           <div class="hero-buttons">
+    <form id="loginForm">
+        <div class="input-container">
+            <input type="email" id="email" placeholder="Email Address" required>
+            <p id="emailError">Sorry, we couldn't recognise you</p>
+        </div>
+
+        <div class="input-container">
+            <input type="password" id="password" placeholder="Password" required>
+            <p id="passError">Incorrect password!</p>
+        </div>
+
+        <button type="submit" class="btn btn-red">Get Started ></button>
+    </form>
+</div>
+
+
+        </div>
+
+        <script>
+            function login(e) {
+                e.preventDefault();
+                window.location.href = "loggedin.html";
+            }
+        </script>
+
+    </div>
+
+    <div class="separation"></div>
+
+    </div>
+
+    <section class="first">
+        <div>
+            <span>Enjoy on your TV</span>
+            <span>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</span>
+        </div>
+
+        <div class="secImg">
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="">
+            <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
+                autoplay loop muted></video>
+        </div>
+    </section>
+    <div class="separation"></div>
+
+    <section class="first second">
+
+        <div class="secImg">
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="">
+
+        </div>
+        <div>
+            <span>Download your shows to watch offline</span>
+            <span>Save your favourites easily and always have something to watch.</span>
+        </div>
+    </section>
+
+    <div class="separation"></div>
+    <section class="first third">
+        <div>
+            <span>Watch everywhere</span>
+            <span>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</span>
+        </div>
+
+        <div class="secImg">
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="">
+            <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v"
+                autoplay loop muted></video>
+        </div>
+    </section>
+    <div class="separation"></div>
+
+
+    <section class="first second">
+
+        <div class="secImg">
+            <img src="https://occ-0-2849-3646.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d"
+                alt="">
+
+        </div>
+        <div>
+            <span>Create profiles for kids</span>
+            <span>Send children on adventures with their favourite characters in a space made just for them—free with
+                your membership.</span>
+        </div>
+    </section>
+
+    <div class="separation"></div>
+
+    <section class="faq" aria-label="Frequently Asked Questions">
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faqbox">
+            <button class="faq-question" aria-expanded="false">
+                <span>What is Netflix?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" role="region" aria-hidden="true">
+                Netflix is a streaming service that offers movies, TV shows, anime and more.
+            </div>
+        </div>
+
+        <div class="faqbox">
+            <button class="faq-question" aria-expanded="false">
+                <span>How much does Netflix cost?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" role="region" aria-hidden="true">
+                Plans vary by region and features. In India, prices start at the plan shown on the homepage.
+            </div>
+        </div>
+
+        <div class="faqbox">
+            <button class="faq-question" aria-expanded="false">
+                <span>What can I watch on Netflix?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" role="region" aria-hidden="true">
+                Movies, TV shows, originals, documentaries, and kids content across genres and languages.
+            </div>
+        </div>
+
+        <div class="faqbox">
+            <button class="faq-question" aria-expanded="false">
+                <span>Where can I watch?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" role="region" aria-hidden="true">
+                You can stream on smart TVs, phones, tablets, laptops and other supported devices.
+            </div>
+        </div>
+    </section>
+
+    <div class="separation"></div>
+
+    <footer>
+        <div class="footer">
+            <a href="investor.html">Investor Relations</a>
+            <a href="help.html">Help Centre</a>
+            <a href="legal.html">Legal Notices</a>
+            <a href="terms.html">Terms of Use</a>
+        </div>
+    </footer>
+
+    <script>
+        const langBtn = document.querySelector(".lang-btn");
+        const dropdown = document.querySelector(".lang-dropdown");
+
+        langBtn.addEventListener("click", () => {
+            dropdown.classList.toggle("show");
+        });
+
+        document.querySelectorAll(".lang-menu div").forEach(item => {
+            item.addEventListener("click", () => {
+                langBtn.innerHTML = item.innerText + "▼";
+                dropdown.classList.remove("show");
+            });
+        });
+
+        window.addEventListener("click", (e) => {
+            if (!dropdown.contains(e.target)) {
+                dropdown.classList.remove("show");
+            }
+        });
+    </script>
+    <!-- <script>
+        function login(e) {
+            e.preventDefault();
+
+            const emailInput = document.getElementById("email");
+            const errorMsg = document.getElementById("error");
+
+            const correctEmail = "priyeshgautam14@gmail.com";
+
+            if (emailInput.value.trim() === correctEmail) {
+                errorMsg.style.display = "none";
+                window.location.href = "loggedin.html";
+            } else {
+                errorMsg.style.display = "block";
+            }
+        }
+    </script> -->
+    <!-- <script>
+// function login(e) {
+//     e.preventDefault();
+
+//     const emailInput = document.getElementById("email");
+//     const passInput = document.getElementById("password");
+
+//     const emailError = document.getElementById("emailError");
+//     const passError = document.getElementById("passError");
+
+//     // Correct credentials
+//     const realEmail = "priyeshgautam14@gmail.com";
+//     const realPassword = "password";
+
+//     let valid = true;
+
+//     // EMAIL CHECK
+//     if (emailInput.value.trim() !== realEmail) {
+//         emailError.style.display = "block";
+//         valid = false;
+//     } else {
+//         emailError.style.display = "none";
+//     }
+
+//     // PASSWORD CHECK
+//     if (passInput.value.trim() !== realPassword) {
+//         passError.style.display = "block";
+//         valid = false;
+//     } else {
+//         passError.style.display = "none";
+//     }
+
+//     // IF BOTH ARE CORRECT
+//     if (valid) {
+//         window.location.href = "loggedin.html";
+//     }
+// }
+function login(e) {
+    e.preventDefault();
+
+    const emailInput = document.getElementById("email");
+    const passInput = document.getElementById("password");
+
+    const emailError = document.getElementById("emailError");
+    const passError = document.getElementById("passError");
+
+    const realEmail = "priyeshgautam14@gmail.com";
+    const realPassword = "password";
+
+    let valid = true;
+
+    if (emailInput.value.trim() !== realEmail) {
+        emailError.style.display = "block";  // shows the error on the right
+        valid = false;
+    } else {
+        emailError.style.display = "none";   // hides the error
+    }
+
+    if (passInput.value.trim() !== realPassword) {
+        passError.style.display = "block";   // shows the error on the right
+        valid = false;
+    } else {
+        passError.style.display = "none";    // hides the error
+    }
+
+    if (valid) {
+        window.location.href = "loggedin.html";  // go to logged-in page
+    }
+}
+
+</script> -->
+    <!-- <script>
+        function login(e) {
+            e.preventDefault();
+
+            const emailInput = document.getElementById("email");
+            const passInput = document.getElementById("password");
+
+            const emailError = document.getElementById("emailError");
+            const passError = document.getElementById("passError");
+
+            const realEmail = "priyeshgautam14@gmail.com";
+            const realPassword = "password";
+
+            let valid = true;
+
+            // EMAIL CHECK
+            if (emailInput.value.trim() !== realEmail) {
+                emailError.classList.add('show'); // show error on right
+                valid = false;
+            } else {
+                emailError.classList.remove('show'); // hide error
+            }
+
+            // PASSWORD CHECK
+            if (passInput.value.trim() !== realPassword) {
+                passError.classList.add('show'); // show error on right
+                valid = false;
+            } else {
+                passError.classList.remove('show'); // hide error
+            }
+
+            // IF BOTH ARE CORRECT
+            if (valid) {
+                window.location.href = "loggedin.html"; // redirect
+            }
+        }
+
+        // Attach event listener to the form
+        document.querySelector(".hero-buttons form").addEventListener("submit", login);
+    </script> -->
+<script>
+function login(e) {
+    e.preventDefault();
+
+    const emailInput = document.getElementById("email");
+    const passInput = document.getElementById("password");
+
+    const emailError = document.getElementById("emailError");
+    const passError = document.getElementById("passError");
+
+    const realEmail = "priyeshgautam14@gmail.com";
+    const realPassword = "password";
+
+    let valid = true;
+
+    if (emailInput.value.trim() !== realEmail) {
+        emailError.classList.add('show');
+        valid = false;
+    } else {
+        emailError.classList.remove('show');
+    }
+
+    if (passInput.value.trim() !== realPassword) {
+        passError.classList.add('show');
+        valid = false;
+    } else {
+        passError.classList.remove('show');
+    }
+
+    if (valid) {
+        window.location.href = "loggedin.html";
+    }
+}
+
+document.getElementById("loginForm").addEventListener("submit", login);
+</script>
+
+    <script>
+        (function () {
+            const boxes = document.querySelectorAll('.faqbox');
+
+            boxes.forEach(box => {
+                const btn = box.querySelector('.faq-question');
+                const answer = box.querySelector('.faq-answer');
+
+                // click toggles (and close others)
+                btn.addEventListener('click', () => {
+                    const isOpen = box.classList.contains('open');
+
+                    // close all
+                    boxes.forEach(b => {
+                        b.classList.remove('open');
+                        b.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+                        b.querySelector('.faq-answer').setAttribute('aria-hidden', 'true');
+                    });
+
+                    // if previously closed, open this one
+                    if (!isOpen) {
+                        box.classList.add('open');
+                        btn.setAttribute('aria-expanded', 'true');
+                        answer.setAttribute('aria-hidden', 'false');
+                    }
+                });
+
+                // keyboard support (Enter / Space)
+                btn.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        btn.click();
+                    }
+                });
+            });
+        })();
+    </script>
+
+
+
+</body>
+
+</html>

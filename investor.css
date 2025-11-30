@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.investor-main {
+    max-width: 70vw;
+    margin: auto;
+    padding: 60px 0;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 32px;
+    margin: 20px 0 10px 0;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}

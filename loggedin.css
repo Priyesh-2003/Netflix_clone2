@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url("assets/bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.loggedin-container {
+    text-align: center;
+    background-color: rgba(0,0,0,0.6);
+    padding: 50px 80px;
+    border-radius: 10px;
+}
+
+.loggedin-container h1 {
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.loggedin-container p {
+    font-size: 24px;
+}

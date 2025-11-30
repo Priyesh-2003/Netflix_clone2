@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <nav>
+            <span><img width="53" src="assets/images/logo.svg" alt=""></span>
+            <div>
+                <div class="lang-dropdown">
+                    <button class="btn lang-btn">English ▼</button>
+
+                    <div class="lang-menu">
+                        <div data-lang="en">English</div>
+                        <div data-lang="hi">हिन्दी</div>
+                        <div data-lang="ta">தமிழ்</div>
+                        <div data-lang="te">తెలుగు</div>
+                    </div>
+                </div>
+
+                <a href="signin.html">
+                    <button class="btn btn-red-sm" id="signinBtn">Sign In</button>
+                </a>
+            </div>
+        </nav>
+        <div class="box"></div>
+
+        <div class="hero">
+            <span id="heroTitle">Enjoy big movies, hit series and more from ₹ 149.</span>
+            <span id="heroSubtitle">Join today. Cancel anytime.</span>
+            <span id="heroPrompt">Ready to watch? Enter your email to create or restart your membership.</span>
+
+            <div class="hero-buttons">
+                <form id="loginForm">
+                    <div class="input-container">
+                        <input type="email" id="email" placeholder="Email Address" required>
+                        <p id="emailError">Sorry, we couldn't recognise you</p>
+                    </div>
+
+                    <div class="input-container">
+                        <input type="password" id="password" placeholder="Password" required>
+                        <p id="passError">Incorrect password!</p>
+                    </div>
+
+                    <button type="submit" class="btn btn-red" id="getStartedBtn">Get Started ></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="separation"></div>
+
+    <section class="first">
+        <div>
+            <span id="tvTitle">Enjoy on your TV</span>
+            <span id="tvSubtitle">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and
+                more.</span>
+        </div>
+        <div class="secImg">
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="">
+            <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
+                autoplay loop muted></video>
+        </div>
+    </section>
+    <div class="separation"></div>
+
+    <section class="first second">
+        <div class="secImg">
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="">
+        </div>
+        <div>
+            <span id="downloadTitle">Download your shows to watch offline</span>
+            <span id="downloadSubtitle">Save your favourites easily and always have something to watch.</span>
+        </div>
+    </section>
+    <div class="separation"></div>
+
+    <section class="first third">
+        <div>
+            <span id="watchEverywhereTitle">Watch everywhere</span>
+            <span id="watchEverywhereSubtitle">Stream unlimited movies and TV shows on your phone, tablet, laptop, and
+                TV.</span>
+        </div>
+        <div class="secImg">
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="">
+            <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v"
+                autoplay loop muted></video>
+        </div>
+    </section>
+    <div class="separation"></div>
+
+    <section class="first second">
+        <div class="secImg">
+            <img src="https://occ-0-2849-3646.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d"
+                alt="">
+        </div>
+        <div>
+            <span id="kidsTitle">Create profiles for kids</span>
+            <span id="kidsSubtitle">Send children on adventures with their favourite characters in a space made just for
+                them—free with your membership.</span>
+        </div>
+    </section>
+    <div class="separation"></div>
+
+    <section class="faq" aria-label="Frequently Asked Questions">
+        <h2 id="faqTitle">Frequently Asked Questions</h2>
+
+        <div class="faqbox">
+            <button class="faq-question" aria-expanded="false">
+                <span class="faq-q1">What is Netflix?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" role="region" aria-hidden="true">
+                <span class="faq-a1">Netflix is a streaming service that offers movies, TV shows, anime and more.</span>
+            </div>
+        </div>
+
+        <div class="faqbox">
+            <button class="faq-question" aria-expanded="false">
+                <span class="faq-q2">How much does Netflix cost?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" role="region" aria-hidden="true">
+                <span class="faq-a2">Plans vary by region and features. In India, prices start at the plan shown on the
+                    homepage.</span>
+            </div>
+        </div>
+
+        <div class="faqbox">
+            <button class="faq-question" aria-expanded="false">
+                <span class="faq-q3">What can I watch on Netflix?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" role="region" aria-hidden="true">
+                <span class="faq-a3">Movies, TV shows, originals, documentaries, and kids content across genres and
+                    languages.</span>
+            </div>
+        </div>
+
+        <div class="faqbox">
+            <button class="faq-question" aria-expanded="false">
+                <span class="faq-q4">Where can I watch?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" role="region" aria-hidden="true">
+                <span class="faq-a4">You can stream on smart TVs, phones, tablets, laptops and other supported
+                    devices.</span>
+            </div>
+        </div>
+    </section>
+    <div class="separation"></div>
+
+    <footer>
+        <div class="footer">
+            <a href="investor.html" id="investorLink">Investor Relations</a>
+            <a href="help.html" id="helpLink">Help Centre</a>
+            <a href="legal.html" id="legalLink">Legal Notices</a>
+            <a href="terms.html" id="termsLink">Terms of Use</a>
+        </div>
+    </footer>
+
+    <script>
+        const langBtn = document.querySelector(".lang-btn");
+        const dropdown = document.querySelector(".lang-dropdown");
+
+        const translations = {
+            en: {
+                heroTitle: "Enjoy big movies, hit series and more from ₹ 149.",
+                heroSubtitle: "Join today. Cancel anytime.",
+                heroPrompt: "Ready to watch? Enter your email to create or restart your membership.",
+                signinBtn: "Sign In",
+                getStartedBtn: "Get Started >",
+                tvTitle: "Enjoy on your TV",
+                tvSubtitle: "Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.",
+                downloadTitle: "Download your shows to watch offline",
+                downloadSubtitle: "Save your favourites easily and always have something to watch.",
+                watchEverywhereTitle: "Watch everywhere",
+                watchEverywhereSubtitle: "Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.",
+                kidsTitle: "Create profiles for kids",
+                kidsSubtitle: "Send children on adventures with their favourite characters in a space made just for them—free with your membership.",
+                faqTitle: "Frequently Asked Questions",
+                faqQ1: "What is Netflix?", faqA1: "Netflix is a streaming service that offers movies, TV shows, anime and more.",
+                faqQ2: "How much does Netflix cost?", faqA2: "Plans vary by region and features. In India, prices start at the plan shown on the homepage.",
+                faqQ3: "What can I watch on Netflix?", faqA3: "Movies, TV shows, originals, documentaries, and kids content across genres and languages.",
+                faqQ4: "Where can I watch?", faqA4: "You can stream on smart TVs, phones, tablets, laptops and other supported devices.",
+                investorLink: "Investor Relations",
+                helpLink: "Help Centre",
+                legalLink: "Legal Notices",
+                termsLink: "Terms of Use"
+            },
+            hi: {
+                heroTitle: "बड़ी फिल्में, हिट सीरीज और ₹ 149 से अधिक का मज़ा लें।",
+                heroSubtitle: "आज ही जुड़ें। कभी भी रद्द करें।",
+                heroPrompt: "देखना शुरू करने के लिए अपना ईमेल दर्ज करें।",
+                signinBtn: "साइन इन",
+                getStartedBtn: "शुरू करें >",
+                tvTitle: "अपने टीवी पर आनंद लें",
+                tvSubtitle: "स्मार्ट टीवी, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray प्लेयर और अधिक पर देखें।",
+                downloadTitle: "ऑफ़लाइन देखने के लिए अपने शो डाउनलोड करें",
+                downloadSubtitle: "अपने पसंदीदा को आसानी से सेव करें और हमेशा कुछ देखने के लिए रखें।",
+                watchEverywhereTitle: "सभी जगह देखें",
+                watchEverywhereSubtitle: "अपने फोन, टैबलेट, लैपटॉप और टीवी पर असीमित फिल्में और टीवी शो स्ट्रीम करें।",
+                kidsTitle: "बच्चों के लिए प्रोफाइल बनाएं",
+                kidsSubtitle: "अपने पसंदीदा पात्रों के साथ बच्चों को रोमांच पर भेजें—सदस्यता के साथ मुफ्त।",
+                faqTitle: "अक्सर पूछे जाने वाले प्रश्न",
+                faqQ1: "Netflix क्या है?", faqA1: "Netflix एक स्ट्रीमिंग सेवा है जो फिल्में, टीवी शो, एनीमे और अधिक प्रदान करती है।",
+                faqQ2: "Netflix की कीमत कितनी है?", faqA2: "योजनाएँ क्षेत्र और सुविधाओं के अनुसार भिन्न होती हैं। भारत में, कीमतें होमपेज पर दिखाए गए प्लान से शुरू होती हैं।",
+                faqQ3: "Netflix पर मैं क्या देख सकता हूँ?", faqA3: "फिल्में, टीवी शो, ओरिजिनल्स, डॉक्यूमेंट्री और बच्चों की सामग्री विभिन्न शैलियों और भाषाओं में।",
+                faqQ4: "मैं कहाँ देख सकता हूँ?", faqA4: "आप स्मार्ट टीवी, फोन, टैबलेट, लैपटॉप और अन्य समर्थित डिवाइसों पर स्ट्रीम कर सकते हैं।",
+                investorLink: "निवेशक संबंध",
+                helpLink: "सहायता केंद्र",
+                legalLink: "कानूनी नोटिस",
+                termsLink: "उपयोग की शर्तें"
+            },
+
+            ta: {
+                heroTitle: "பெரிய திரைப்படங்கள், ஹிட் தொடர்கள் மற்றும் ₹ 149 முதல் இன்னும் பலவற்றை அனுபவிக்கவும்.",
+                heroSubtitle: "இன்றே சேர்ந்துகொள்ளுங்கள். எப்போது வேண்டுமானாலும் ரத்துசெய்யலாம்.",
+                heroPrompt: "பார்ப்பதற்குத் தயார்? உங்கள் மின்னஞ்சலை உள்ளிடுங்கள்.",
+                signinBtn: "சைன் இன்",
+                getStartedBtn: "தொடங்கவும் >",
+                tvTitle: "உங்கள் டிவியில் அனுபவிக்கவும்",
+                tvSubtitle: "ஸ்மார்ட் டிவிகள், PlayStation, Xbox, Chromecast, Apple TV, Blu-ray பிளேயர்கள் மற்றும் மேலும் பார்க்கவும்.",
+                downloadTitle: "ஆஃப்லைனில் பார்க்க உங்கள் நிகழ்ச்சிகளை பதிவிறக்கவும்",
+                downloadSubtitle: "உங்கள் விருப்பங்களை எளிதில் சேமிக்கவும், எப்போதும் பார்க்க ஒன்றைக் கொண்டு இருங்கள்.",
+                watchEverywhereTitle: "எங்கும் பார்க்கவும்",
+                watchEverywhereSubtitle: "உங்கள் போன், டேப்லெட், லேப்டாப் மற்றும் டிவியில் எல்லா திரைப்படங்களையும் தொடர்களையும் ஸ்ட்ரீம் செய்யவும்.",
+                kidsTitle: "குழந்தைகளுக்கான پروஃபைல்கள் உருவாக்கவும்",
+                kidsSubtitle: "உங்கள் விருப்பமான கதாபாத்திரங்களுடன் குழந்தைகளை சாகசங்களில் அனுப்புங்கள் — உங்கள் உறுப்பினத்துடன் இலவசம்.",
+                faqTitle: "அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                faqQ1: "Netflix என்பது என்ன?",
+                faqA1: "Netflix என்பது திரைப்படங்கள், டிவி நிகழ்ச்சிகள், அனிமே மற்றும் மேலும் வழங்கும் ஸ்ட்ரீமிங் சேவை ஆகும்.",
+                faqQ2: "Netflix செலவு எவ்வளவு?",
+                faqA2: "திட்டங்கள் பகுதி மற்றும் அம்சங்களைக் கொண்டு மாறுபடுகின்றன. இந்தியாவில், விலை முகப்புப்பக்கத்தில் காட்டப்பட்ட திட்டத்தில் இருந்து தொடங்குகிறது.",
+                faqQ3: "Netflix இல் நான் என்ன பார்க்கலாம்?",
+                faqA3: "திரைப்படங்கள், டிவி நிகழ்ச்சிகள், ஒரிஜினல்ஸ், ஆவணப்படங்கள் மற்றும் குழந்தைகளுக்கான உள்ளடக்கம் அனைத்துத் துறைகளிலும் கிடைக்கிறது.",
+                faqQ4: "எங்கே பார்க்க முடியும்?",
+                faqA4: "நீங்கள் ஸ்மார்ட் டிவிகள், போன்கள், டேப்லெட்கள், லேப்டாப்கள் மற்றும் பிற ஆதரிக்கப்படும் சாதனங்களில் ஸ்ட்ரீம் செய்யலாம்.",
+                investorLink: "நിക്ഷேபக உறவுகள்",
+                helpLink: "உதவி மையம்",
+                legalLink: "சட்ட அறிவிப்புகள்",
+                termsLink: "பயன்பாட்டு விதிமுறைகள்"
+            },
+            te: {
+                heroTitle: "పెద్ద సినిమాలు, హిట్ సిరీస్‌లు మరియు ₹149 నుండి మరిన్ని అనుభవించండి.",
+                heroSubtitle: "ఈరోజే చేరండి. ఎప్పుడైనా రద్దు చేయవచ్చు.",
+                heroPrompt: "చూడడానికి సిద్ధంగా ఉన్నారా? మీ ఇమెయిల్‌ని నమోదు చేయండి.",
+                signinBtn: "సైన్ ఇన్",
+                getStartedBtn: "ప్రారంభించండి >",
+                tvTitle: "మీ టీవీలో ఆనందించండి",
+                tvSubtitle: "స్మార్ట్ టీవీలు, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray ప్లేయర్లు మరియు మరిన్ని చూడండి.",
+                downloadTitle: "ఆఫ్‌లైన్‌లో చూడడానికి మీ షోల‌ను డౌన్‌లోడ్ చేయండి",
+                downloadSubtitle: "మీ ఇష్టాలను సులభంగా సేవ్ చేయండి మరియు ఎల్లప్పుడూ చూడటానికి ఏదో ఒకటి ఉండండి.",
+                watchEverywhereTitle: "ప్రతి చోటు చూడండి",
+                watchEverywhereSubtitle: "మీ ఫోన్, టాబ్లెట్, ల్యాప్‌టాప్ మరియు టీవీలో అన్‌లిమిటెడ్ సినిమాలు మరియు టీవీ షోలు స్ట్రీమ్ చేయండి.",
+                kidsTitle: "కిడ్స్ కోసం ప్రొఫైల్స్ సృష్టించండి",
+                kidsSubtitle: "మీ పిల్లలను వారి ఇష్టమైన క్యారెక్టర్లతో అడ్వెంచర్స్‌కు పంపండి — మీ సభ్యత్వంతో ఉచితం.",
+                faqTitle: "తరచుగా అడిగే ప్రశ్నలు",
+                faqQ1: "Netflix అంటే ఏమిటి?",
+                faqA1: "Netflix అనేది సినిమాలు, టీవీ షోలు, యానిమే మరియు మరిన్ని అందించే స్ట్రీమింగ్ సర్వీస్.",
+                faqQ2: "Netflix ఖర్చు ఎంత?",
+                faqA2: "ప్రణాళికలు ప్రాంతం మరియు ఫీచర్ల ఆధారంగా మారవచ్చు. భారత్‌లో, ధర హోమ్‌పేజీలో చూపించిన ప్రణాళిక నుండి ప్రారంభమవుతుంది.",
+                faqQ3: "Netflix లో ఏమి చూడగలను?",
+                faqA3: "సినిమాలు, టీవీ షోలు, ఒరిజినల్స్, డాక్యుమెంటరీస్, పిల్లల కోసం కంటెంట్ అన్ని జానర్లలో మరియు భాషల్లో లభిస్తుంది.",
+                faqQ4: "ఎక్కడ చూడగలను?",
+                faqA4: "మీరు స్మార్ట్ టీవీలు, ఫోన్లు, టాబ్లెట్లు, ల్యాప్‌టాప్‌లు మరియు ఇతర మద్దతు ఉన్న పరికరాల్లో స్ట్రీమ్ చేయవచ్చు.",
+                investorLink: "ఇన్వెస్టర్ సంబంధాలు",
+                helpLink: "హెల్ప్ సెంటర్",
+                legalLink: "చట్ట నోటీసులు",
+                termsLink: "వినియోగ నిబంధనలు"
+            }
+        };
+
+        langBtn.addEventListener("click", () => {
+            dropdown.classList.toggle("show");
+        });
+
+        document.querySelectorAll(".lang-menu div").forEach(item => {
+            item.addEventListener("click", () => {
+                const lang = item.getAttribute("data-lang");
+                langBtn.innerHTML = item.innerText + "▼";
+                dropdown.classList.remove("show");
+
+                const t = translations[lang];
+
+                if (!t) return;
+
+
+                document.getElementById("heroTitle").innerText = t.heroTitle;
+                document.getElementById("heroSubtitle").innerText = t.heroSubtitle;
+                document.getElementById("heroPrompt").innerText = t.heroPrompt;
+                document.getElementById("signinBtn").innerText = t.signinBtn;
+                document.getElementById("getStartedBtn").innerText = t.getStartedBtn;
+                document.getElementById("tvTitle").innerText = t.tvTitle;
+                document.getElementById("tvSubtitle").innerText = t.tvSubtitle;
+                document.getElementById("downloadTitle").innerText = t.downloadTitle;
+                document.getElementById("downloadSubtitle").innerText = t.downloadSubtitle;
+                document.getElementById("watchEverywhereTitle").innerText = t.watchEverywhereTitle;
+                document.getElementById("watchEverywhereSubtitle").innerText = t.watchEverywhereSubtitle;
+                document.getElementById("kidsTitle").innerText = t.kidsTitle;
+                document.getElementById("kidsSubtitle").innerText = t.kidsSubtitle;
+                document.getElementById("faqTitle").innerText = t.faqTitle;
+                document.querySelector(".faq-q1").innerText = t.faqQ1;
+                document.querySelector(".faq-a1").innerText = t.faqA1;
+                document.querySelector(".faq-q2").innerText = t.faqQ2;
+                document.querySelector(".faq-a2").innerText = t.faqA2;
+                document.querySelector(".faq-q3").innerText = t.faqQ3;
+                document.querySelector(".faq-a3").innerText = t.faqA3;
+                document.querySelector(".faq-q4").innerText = t.faqQ4;
+                document.querySelector(".faq-a4").innerText = t.faqA4;
+                document.getElementById("investorLink").innerText = t.investorLink;
+                document.getElementById("helpLink").innerText = t.helpLink;
+                document.getElementById("legalLink").innerText = t.legalLink;
+                document.getElementById("termsLink").innerText = t.termsLink;
+            });
+        });
+
+        window.addEventListener("click", (e) => {
+            if (!dropdown.contains(e.target)) {
+                dropdown.classList.remove("show");
+            }
+        });
+
+    </script>
+
+    <script>
+        function login(e) {
+            e.preventDefault();
+
+            const emailInput = document.getElementById("email");
+            const passInput = document.getElementById("password");
+
+            const emailError = document.getElementById("emailError");
+            const passError = document.getElementById("passError");
+
+            const realEmail = "priyeshgautam14@gmail.com";
+            const realPassword = "password";
+
+            let valid = true;
+
+            if (emailInput.value.trim() !== realEmail) {
+                emailError.classList.add('show');
+                valid = false;
+            } else {
+                emailError.classList.remove('show');
+            }
+
+            if (passInput.value.trim() !== realPassword) {
+                passError.classList.add('show');
+                valid = false;
+            } else {
+                passError.classList.remove('show');
+            }
+
+            if (valid) {
+                window.location.href = "loggedin.html";
+            }
+        }
+
+        document.getElementById("loginForm").addEventListener("submit", login);
+    </script>
+
+    <script>
+        (function () {
+            const boxes = document.querySelectorAll('.faqbox');
+
+            boxes.forEach(box => {
+                const btn = box.querySelector('.faq-question');
+                const answer = box.querySelector('.faq-answer');
+
+                btn.addEventListener('click', () => {
+                    const isOpen = box.classList.contains('open');
+
+                    boxes.forEach(b => {
+                        b.classList.remove('open');
+                        b.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+                        b.querySelector('.faq-answer').setAttribute('aria-hidden', 'true');
+                    });
+
+                    if (!isOpen) {
+                        box.classList.add('open');
+                        btn.setAttribute('aria-expanded', 'true');
+                        answer.setAttribute('aria-hidden', 'false');
+                    }
+                });
+
+                btn.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        btn.click();
+                    }
+                });
+            });
+        })();
+    </script>
+
+</body>
+
+</html>
