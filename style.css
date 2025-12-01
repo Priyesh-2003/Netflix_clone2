@@ -937,7 +937,7 @@ footer .questions {
 .input-container p {
   position: absolute;
   top: 50%;
-  right: -210px; /* fixed distance to the right */
+  right: -300px; /* fixed distance to the right */
   transform: translateY(-50%);
   color: #e50914;
   font-size: 14px;
@@ -962,3 +962,4 @@ footer .questions {
   width: 120px; /* fixed width */
   text-align: center;
 }
+
